@@ -11,9 +11,10 @@ export const Person = ({ person }) => {
 
       {isMarried && partnerName ? (
         <p className="Person__partner">
-          {partnerName} is my {partnerTranslation}</p>
+          {partnerName} is my {partnerTranslation}
+        </p>
       ) : (
-        <p className="Peson__partner">I am not married</p>
+        <p className="Person__partner">I am not married</p>
       )}
     </section>
   );
